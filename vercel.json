@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/:path+",
+        "destination": "https://w3teal.bearblog.dev/:path+",
+        "permanent": true
+      }
+    ]
+}  
