@@ -1,0 +1,45 @@
+:root {
+    color-scheme: light dark;
+    --f: monospace;
+    --c: light-dark(#078181, #07bbbc);
+    --e: #ff0000;
+}
+
+body {
+    font-family: var(--f);
+    margin: 0;
+}
+
+pre {
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+.line {
+    display: flex;
+}
+
+.prompt {
+    margin-right: .5rem;
+}
+
+input {
+    all: unset;
+    flex: 1;
+}
+
+.output {
+    white-space: pre-wrap;
+}
+
+.error {
+    color: var(--e);
+}
+
+.header {
+    color: var(--c);
+}
+
+a {
+    color: unset;
+}
